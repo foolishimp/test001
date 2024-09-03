@@ -1,6 +1,6 @@
 {{ config(materialized='table') }}
 
-{{ lineage_join(
+{{ lineage_join_old(
     left_model='customer',
     right_model='orders',
     join_type='LEFT JOIN',
@@ -10,3 +10,4 @@
     left_alias='c',
     right_alias='o'
 ) }}
+

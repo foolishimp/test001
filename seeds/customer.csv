@@ -1,4 +1,11 @@
-customer_id,name
-1,Alice
-2,Bob
-3,Charlie
+customer_id,name,email,city
+1,John Doe,john.doe@email.com,New York
+2,Jane Smith,jane.smith@email.com,Los Angeles
+3,Bob Johnson,bob.johnson@email.com,Chicago
+4,Alice Brown,alice.brown@email.com,Houston
+5,Charlie Davis,charlie.davis@email.com,Phoenix
+6,Eva Wilson,eva.wilson@email.com,Philadelphia
+7,Frank Miller,frank.miller@email.com,San Antonio
+8,Grace Taylor,grace.taylor@email.com,San Diego
+9,Henry Anderson,henry.anderson@email.com,Dallas
+10,Ivy Martinez,ivy.martinez@email.com,San Jose

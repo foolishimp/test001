@@ -1,0 +1,11 @@
+product_id,product_name,price,category
+1,Widget A,9.99,Electronics
+2,Gadget B,24.99,Electronics
+3,Gizmo C,14.99,Home
+4,Doohickey D,39.99,Office
+5,Thingamajig E,19.99,Home
+6,Whatchamacallit F,29.99,Office
+7,Doodad G,4.99,Miscellaneous
+8,Contraption H,49.99,Electronics
+9,Apparatus I,34.99,Home
+10,Device J,59.99,Office

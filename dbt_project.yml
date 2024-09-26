@@ -16,32 +16,7 @@ clean-targets:
     - "target"
     - "dbt_packages"
 
-seeds:
-  test001:
-    +quote_columns: true
-    +fail_calc_cols_add: true
-    +on_schema_change: fail
-    products:
-      +column_types:
-        product_id: int
-        product_name: varchar(255)
-        price: float
-        category: varchar(255)
-    customer:
-      +column_types:
-        customer_id: int
-        name: varchar(255)
-        email: varchar(255)
-        city: varchar(255)
-    orders:
-      +column_types:
-        order_id: int
-        customer_id: int
-        product_id: int
-        order_date: date
-        quantity: int
-        total_price: float
-
 models:
   test001:
+    # Applies to all files under models/
     +materialized: table

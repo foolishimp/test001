@@ -1,0 +1,22 @@
+version: 2
+
+analyses:
+  - name: test001a
+    description: "Description of your analysis"
+    columns:
+      - name: column1
+        description: "Description of column1"
+      - name: column2
+        description: "Description of column2"
+
+models:
+  - name: model1
+    description: "Description of model1"
+    columns:
+      - name: column1
+        description: "Description of column1"
+  - name: model2
+    description: "Description of model2"
+    columns:
+      - name: column1
+        description: "Description of column1"
